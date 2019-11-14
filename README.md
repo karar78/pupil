@@ -56,7 +56,10 @@ Thank you.
 
 # Moving the application to Docker Containerzation
 1- docker build -f Dockerfile -t khsbangash/docker-pupil .
+
 2- docker images
+
 3- docker push khsbangash/docker-pupil
+
 4- docker run -p 9876:8080 khsbangash/docker-pupil:latest
 
