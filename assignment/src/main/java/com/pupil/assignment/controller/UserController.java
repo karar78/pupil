@@ -34,7 +34,6 @@ public class UserController {
 
 	@GetMapping("/users/{id}")
 	public ResponseEntity<?> getUser(@PathVariable long id) throws DataInputException {
-		LOGGER.error(id + "");
 		Optional<User> obj = service.findById(id);
 		LOGGER.debug("Object found: " +obj.toString());
 		
