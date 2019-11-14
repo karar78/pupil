@@ -32,7 +32,7 @@ public class User {
 	
 	@JsonFormat(pattern = "dd/MM/yyyy")
 	private Date registrationDate;
-	 
+	  
 	protected User() {
 		super();
 		registrationDate = new Date();
