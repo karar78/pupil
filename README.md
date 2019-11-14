@@ -3,8 +3,11 @@
 
 # Docker Related
 1- Skip step 2 and step 3 if Docker is already installed on your local machine
+
 2- Download Docker from https://www.docker.com/products/docker-desktop
+
 3- Install the downloaded application on your local machine and start runnng it
+
 4- Open command shell and type below command (it may take few minutes to download all libraries)
 	docker pull khsbangash/docker-pupil
 
