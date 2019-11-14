@@ -1,7 +1,7 @@
 
-<<A Restful application for registering users>>
+# A Restful application for registering users>
 
-<<Docker Related>>
+# Docker Related
 1- Skip step 2 and step 3 if Docker is already installed on your local machine
 2- Download Docker from https://www.docker.com/products/docker-desktop
 3- Install the downloaded application on your local machine and start runnng it
@@ -16,7 +16,7 @@
 	(Note: You may use any port instead of 9876)
 
 
-<<Using Application - How to access endpoints of the application>> 
+# Using Application - How to access endpoints of the application
 1- Download and install postman 
 
 2- Use Post method to register a new user:
@@ -30,7 +30,7 @@ Upon successful registration of the user, you will see status code 200 and ID of
 	e.g: for ID number 1, the URL is shown below:
 	http://localhost:9876/users/1
 
-<<Source Code>>
+# Source Code
 1- The source code could be downloaded from Github at below URL:
 	https://github.com/karar78/pupil.git
 2- Once downloaded, the files are ready to be imported in to your favorite IDE.
