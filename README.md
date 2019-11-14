@@ -1,5 +1,5 @@
 
-# A Restful application for registering users>
+# A Restful application for registering users
 
 # Docker Related
 1- Skip step 2 and step 3 if Docker is already installed on your local machine
