@@ -27,7 +27,6 @@ public class User {
 	@Size(min=2, message = "must contain atleast 2 characters")
 	private String firstName;
 	
-
 	@Size(min=2, message = "must contain atleast 2 characters")
 	private String lastName;
 	
